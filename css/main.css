@@ -30,7 +30,7 @@ li a:hover:not(.active) {
 
 .green-square {
   width: 200px; /* Width of the navbar */
-  height: 700px; /* Height of the square (adjust as needed) */
+  height: 1000px; /* Height of the square (adjust as needed) */
   background-color: #f1f1f1;
   position: fixed;
   top: 0;
