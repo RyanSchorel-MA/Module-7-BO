@@ -1,12 +1,12 @@
 # BO | Module: 7 
 ## 🧩 Made By:
-| Ryan Schorel | 
+* Ryan Schorel 
 ## ✨Kenmerken:
-De technieken die in dit project worden gebruikt zijn: Onbekend
+De technieken die in dit project worden gebruikt zijn: Javascript, JSON, css & html
 ## 📦 Inhoud
-* Project: Onbekend
-* 
+* Project:
+  Het maken van een website die oneindig veel content berichten heeft.
 ## 🌍 Bronnen
-* Onbekend
-* Onbekend
+* Instagram Layout.
+* Twitch Style.
 
