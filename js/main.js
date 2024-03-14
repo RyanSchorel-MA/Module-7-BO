@@ -20,6 +20,7 @@ function posts() {
 	  let h1 = document.createElement("h1");
 	  let p = document.createElement("p");
 	  let img = document.createElement("img");
+	  img.classList.add("img");
 	  
 	  fetch("js/mock_data.json")
 		.then(res => res.json())
@@ -29,7 +30,7 @@ function posts() {
 		  img.src = data[j].photo;
 		  
 		  ele.appendChild(h1);
-		  ele.appendChild(p);s
+		  ele.appendChild(p);
 		  ele.appendChild(img);
 		});
 	  

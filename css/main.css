@@ -55,88 +55,11 @@ li a:hover:not(.active) {
   position: fixed;
   top: 0;
   left: 0;  
-  border: 3px solid #cfcfcf;
+  border: 0.3rem solid #cfcfcf;
 
 }
 
-
-
-/* Code voor foto in het midden */
-.container {
-  width: 300px;
-  height: 530px;
-  border: 1px solid #ccc;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #f1f1f1;
-}
-
-.balk {
+.img{
   width: 100%;
-  height: 50px;
-  background-color: #9c4fff;
-  display: flex;
-  align-items: center;
 }
-
-.logo img {
-  width: 30px; 
-  height: auto;
-  margin-left: 10px; /* Afstand tussen logo en tekst */
-}
-
-.text {
-  margin-left: 10px; /* Afstand tussen logo en tekst */
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.afbeelding {
-  margin-top: 20px;
-}
-
-.afbeelding img {
-  width: 100%;
-  height: auto;
-}
-
-.knop {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 10px 20px;
-  background-color: #9c4fff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.profiel {
-  margin-top: 20px;
-  display: flex; /* Zorgt ervoor dat de profielfoto en de profieltekst naast elkaar komen */
-  align-items: center; /* Centreer de inhoud verticaal */
-  text-align: left;
-}
-
-.profielfoto img {
-  width: 50px; /* Aanpassen naar de gewenste grootte */
-  height: auto;
-  border-radius: 50%; /* Om een cirkelvormige profielfoto te maken */
-}
-
-.profieltekst {
-  margin-left: 20px; /* Ruimte toevoegen tussen profielfoto en profieltekst */
-}
-
-.profieltekst p {
-  margin: 0;
-}
-
-
 
