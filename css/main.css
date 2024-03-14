@@ -1,3 +1,5 @@
+
+/* Vertical Navbar Links*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -9,7 +11,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
 
 li a {
   display: block;
@@ -24,16 +25,118 @@ li a.active {
 }
 
 li a:hover:not(.active) {
-  background-color: #555;
+  background-color: #6f6f6f;
   color: white;
 }
 
-.green-square {
-  width: 200px; /* Width of the navbar */
-  height: 1000px; /* Height of the square (adjust as needed) */
+.white-square {
+  width: 200px;
+  height: 1000px;
   background-color: #f1f1f1;
   position: fixed;
   top: 0;
   left: 0;
-  z-index: -1; /* Ensure it's behind other content */
+  z-index: 10; 
+  border: 3px solid #cfcfcf;
+
 }
+.white-square2 {
+  width: 100rem;
+  height: 11rem;
+  background-color: #f1f1f1;
+  position: fixed;
+  top: 0;
+  left: 0;  
+}
+.white-square3 {
+  width: 100rem;
+  height: 4rem;
+  background-color: #f1f1f1;
+  position: fixed;
+  top: 0;
+  left: 0;  
+  border: 3px solid #cfcfcf;
+
+}
+
+
+
+/* Code voor foto in het midden */
+.container {
+  width: 300px;
+  height: 530px;
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+}
+
+.balk {
+  width: 100%;
+  height: 50px;
+  background-color: #9c4fff;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 30px; 
+  height: auto;
+  margin-left: 10px; /* Afstand tussen logo en tekst */
+}
+
+.text {
+  margin-left: 10px; /* Afstand tussen logo en tekst */
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.afbeelding {
+  margin-top: 20px;
+}
+
+.afbeelding img {
+  width: 100%;
+  height: auto;
+}
+
+.knop {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  background-color: #9c4fff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.profiel {
+  margin-top: 20px;
+  display: flex; /* Zorgt ervoor dat de profielfoto en de profieltekst naast elkaar komen */
+  align-items: center; /* Centreer de inhoud verticaal */
+  text-align: left;
+}
+
+.profielfoto img {
+  width: 50px; /* Aanpassen naar de gewenste grootte */
+  height: auto;
+  border-radius: 50%; /* Om een cirkelvormige profielfoto te maken */
+}
+
+.profieltekst {
+  margin-left: 20px; /* Ruimte toevoegen tussen profielfoto en profieltekst */
+}
+
+.profieltekst p {
+  margin: 0;
+}
+
+
+
