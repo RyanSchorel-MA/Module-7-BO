@@ -29,7 +29,7 @@ function posts() {
 		  img.src = data[j].photo;
 		  
 		  ele.appendChild(h1);
-		  ele.appendChild(p);
+		  ele.appendChild(p);s
 		  ele.appendChild(img);
 		});
 	  
