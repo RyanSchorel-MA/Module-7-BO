@@ -9,4 +9,6 @@ De technieken die in dit project worden gebruikt zijn: Javascript, JSON, css, ht
 ## 🌍| Bronnen:
 * Instagram Layout.
 * Twitch Style.
+## 📝| Note:
+* De website is niet responsive
 
