@@ -11,7 +11,7 @@ let date__array = [];
 posts();
 
 function posts() {
-	for (let j = 0; j < 20; j++) {
+	for (let j = 0; j < 11; j++) {
 	  let ele = document.createElement('div');
 	  ele.setAttribute('id', item);
 	  ele.setAttribute('class', 'post');
